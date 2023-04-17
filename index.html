@@ -1,10 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz - API</title>
 </head>
 <body>
+
+<img src="media/polygonS1.svg" alt="">
+<img src="media/polygonS2.svg" alt="">
+<img src="media/polygonG1.svg" alt="">
+<img src="media/polygonG2.svg" alt="">
+<img src="media/polygonG3.svg" alt="">
+
+<div class="center">
+    <div class="container">
+        <div class="text">
+            Authentification
+        </div>
+        <div class="form">
+            <div class="data">
+                <label for="email">Email</label>
+                <input type="text" id="email" required>
+            </div>
+            <div class="data">
+                <label for="mdp">Mot de passe</label>
+                <input type="password" id="mdp" required>
+            </div>
+            <div class="btn">
+                <div class="inner"></div>
+                <button type="submit" id="btn">Recupérer un token</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<script src="app.js"></script>
 
 </body>
 </html>

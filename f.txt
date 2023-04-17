@@ -1,0 +1,36 @@
+<div class="card">
+    <h3 class="Label">hello</h3>
+    <div class="form">
+        <div>
+            <input type="radio" id="1" name="question" value="">
+            <label  id="reponse1" for="1">Question 1 </label>
+        </div>
+        <div>
+            <input type="radio" id="2" name="question" value="">
+            <label id="reponse2" for="2">Question 2 </label>
+        </div>
+        <div>
+            <input type="radio" id="3" name="question" value="">
+            <label id="reponse3" for="3">Question 3 ldjbnsf< qisjdbfgidsuh dsqijhgdsqpiu sdq piuqnsdgf</label>
+        </div>
+        <div>
+            <input type="radio" id="4" name="question" value="">
+            <label id="reponse4" for="4">Question 4 </label>
+        </div>
+        <button id="btn" type="reset"> Envoyer</button>
+    </div>
+</div>
+
+
+
+
+.card{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:  15px;
+    border-radius: 10px;
+    background: white;
+}
